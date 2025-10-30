@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87649CD72EB3589D00891D52 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87649CD32EB3589D00891D52 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		87CD952E2EB2049C00C6CC82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87CD95202EB2049A00C6CC82 /* Altu Mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Altu Mini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87CD952D2EB2049C00C6CC82 /* Altu MiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altu MiniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87CD95372EB2049C00C6CC82 /* Altu MiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Altu MiniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87649CD32EB3589D00891D52 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		87CD95202EB2049A00C6CC82 /* Altu Mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Altu Mini.app"; path = "/Users/pranavbanwasi/Desktop/Altu Mini/build/Debug-iphoneos/Altu Mini.app"; sourceTree = "<absolute>"; };
+		87CD952D2EB2049C00C6CC82 /* Altu MiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Altu MiniTests.xctest"; path = "/Users/pranavbanwasi/Desktop/Altu Mini/build/Debug-iphoneos/Altu Mini.app/PlugIns/Altu MiniTests.xctest"; sourceTree = "<absolute>"; };
+		87CD95372EB2049C00C6CC82 /* Altu MiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Altu MiniUITests.xctest"; path = "/Users/pranavbanwasi/Desktop/Altu Mini/build/Debug-iphoneos/Altu MiniUITests-Runner.app/PlugIns/Altu MiniUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -66,18 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				87649CD42EB3589D00891D52 /* Altu Mini */,
-				87CD95212EB2049A00C6CC82 /* Products */,
+				87649CD32EB3589D00891D52 /* README.md */,
 			);
-			sourceTree = "<group>";
-		};
-		87CD95212EB2049A00C6CC82 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				87CD95202EB2049A00C6CC82 /* Altu Mini.app */,
-				87CD952D2EB2049C00C6CC82 /* Altu MiniTests.xctest */,
-				87CD95372EB2049C00C6CC82 /* Altu MiniUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +174,7 @@
 			mainGroup = 87CD95172EB2049A00C6CC82;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 87CD95212EB2049A00C6CC82 /* Products */;
+			productRefGroup = 87CD95172EB2049A00C6CC82;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -195,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87649CD72EB3589D00891D52 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
