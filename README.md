@@ -4,7 +4,7 @@
 
 ## Instructions
 
-To run Altu Mini locally, you only need to take two steps:
+To run Altu Mini locally, you only need to take three steps:
 
 1.  **Clone:** `git clone https://github.com/PranavB-11/AltuMini`
 2.  **API Key Setup:** Enter your Gemini API Key in `Services/GeminiService.swift`. The free tier is sufficient for testing this application.
